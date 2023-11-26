@@ -1,7 +1,7 @@
 {
-  "name": "momentum-trail",
+  "name": "momentum-trail-patch",
   "description": "Fully typed frontend route helper for Laravel apps",
-  "version": "0.3.5",
+  "version": "0.0.3",
   "scripts": {
     "dev": "vite",
     "build": "npm run lint && npm run format && vite build && tsc --declaration --emitDeclarationOnly",
@@ -20,7 +20,7 @@
   "author": "Boris Lepikhin<https://twitter.com/lepikhinb>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lepikhinb/momentum-trail-helper.git"
+    "url": "https://github.com/shayaulman/momentum-trail-helper-patch"
   },
   "homepage": "https://github.com/lepikhinb/momentum-trail#readme",
   "files": [
@@ -58,6 +58,6 @@
     "vue": "^3.2.45"
   },
   "dependencies": {
-    "ziggy-js": "^1.5.0"
+    "ziggy-js": "^1.8.1"
   }
 }
